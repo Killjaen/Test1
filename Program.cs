@@ -22,6 +22,12 @@ namespace ConsoleApp1
             {
                 Console.WriteLine(mas[i]);
             }
+            Console.WriteLine();
+
+            for (int i = mas.Length-1; i >= 0; i--)
+            {
+                Console.WriteLine(mas[i]);
+            }
         }
     }
 }

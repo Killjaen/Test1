@@ -10,7 +10,18 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
+            int[] mas = new int[10];
+            Random random = new Random();
+
+            for (int i = 0; i < mas.Length; i++) // заганяємо в массив рандомні числа
+            {
+                mas[i] = random.Next(15); // закидуєм в масив рандомні числа в діапазоні від 0 до 15
+            }
+
+            for (int i = 0; i < mas.Length; i++) // виводимо масив на екран
+            {
+                Console.WriteLine(mas[i]);
+            }
         }
     }
 }

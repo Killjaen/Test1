@@ -28,6 +28,7 @@ namespace ConsoleApp1
             {
                 Console.WriteLine(mas[i]);
             }
+            Console.WriteLine("test brunc added");
         }
     }
 }
